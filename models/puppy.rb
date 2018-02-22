@@ -1,5 +1,5 @@
 class Puppy
-attr_accesor :name, :breed, :age
+attr_accessor :name, :breed, :age
     def initialize
 
     end
