@@ -14,3 +14,16 @@ create puppy
    </form>
  </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Poo-Paws Adoption</title>
+ </head>
+ <body>
+   <p> Puppy Name: <%=@name%></p>
+   <p> Breed: <%=@breed%></p>
+   <p> Age: <%=@age%></p>
+ </body>
+</html>
