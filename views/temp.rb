@@ -40,3 +40,23 @@ index
    <a href="/new"> Click Here To List A Puppy </a>
  </body>
 </html>
+
+app
+require_relative 'config/environment'
+
+class App < Sinatra::Base
+  get '/' do
+    erb :index
+  end
+
+  get '/new' do
+    erb :create_puppy
+  end
+
+  post '/puppy' do
+    @name=params['name']
+    @age=params['age']
+    @breed=params['breed']
+  end
+
+end
