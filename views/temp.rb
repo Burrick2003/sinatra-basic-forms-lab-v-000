@@ -15,6 +15,7 @@ create puppy
  </body>
 </html>
 
+display
 <!DOCTYPE html>
 <html>
  <head>
