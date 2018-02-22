@@ -28,3 +28,15 @@ display
    <p> Age: <%=@age%></p>
  </body>
 </html>
+
+index
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Poo-Paws Adoption</title>
+ </head>
+ <body>
+   <a href="/new"> Click Here To List A Puppy </a>
+ </body>
+</html>
